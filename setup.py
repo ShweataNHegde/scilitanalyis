@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["scilitanalysis"],
+    packages=["analysis", "scilitanalysis"],
     include_package_data=True,
     install_requires=["yake", "scispacy", "spacy", "pygetpapers", "bs4"],
     entry_points={
